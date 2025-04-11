@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/icon" href="assets/images/favicon.png" />
+    <title>Chescoe Ltd</title>
+  </head>
+  <body>
+    <button
+      onclick="topFunction()"
+      id="ScrollToTop"
+      title="Go to top"
+      style="display: inline-block"
+    >
+      <i class="fa-solid fa-angle-up"></i>
+    </button>
+    <header>
+      <div class="main-header py-2">
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="container">
+            <a href="index.html" class="navbar-brand p-0 me-0">
+              <img
+                src="assets/images/logo.png"
+                alt="Site Logo"
+                class="img-fluid w-100"
+              />
+            </a>
+            <div class="nav-right">
+              <div
+                class="offcanvas offcanvas-start"
+                id="navbarOffcanvas"
+                tabindex="-1"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header d-block d-lg-none">
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body d-lg-flex align-items-center">
+                  <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"> How It Works </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Stuff We Really Want</a
+                      >
+                      <ul
+                        class="dropdown-menu bg-white p-3 rounded-0"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li><a class="dropdown-item fs-16 fw-500 text-primary" href="#">Stuff We Want</a></li>
+                       
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item fs-16 fw-500 text-primary" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"> Stuff We’ve Bought</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"> Get A Quote</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <button
+                class="navbar-toggler ms-3"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#navbarOffcanvas"
+                aria-controls="navbarOffcanvas"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon">
+                  <i class="fa-solid fa-bars"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="banner-sec position-relative">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner position-relative">
+          <div class="carousel-item active">
+            <img
+              src="assets/images/hero-banner.jpg"
+              class="img-fluid w-100 h-100 object-cover"
+              alt="Hero banner"
+            />
+            <div
+              class="container position-absolute top-50 start-50 translate-middle w-100"
+            >
+              <div class="row">
+                <div class="col-lg-8 col-md-10">
+                  <div class="carousel-text wow animate__fadeInUp">
+                    <h1 class="fw-700 fs-40 mb-sm-4 mb-3 text-white">
+                      Welcome to the Guernsey Record Exchange
+                    </h1>
+
+                    <p class="fs-25 lh-1-7 text-white mb-sm-5 mb-4 w-75">
+                      At the Guernsey Record Exchange, were passionate about
+                      vinyl. Our mission is simple: to connect with individuals
+                      who own vinyl record collections they no longer use, and
+                      offer a fair price as a hassle-free experience
+                    </p>
+                    <a href="#" class="btn btn-warning"> Get A Quote </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="record-sec py-5">
+      <div class="before-1 position-relative">
+        <div class="container position-relative py-md-5">
+          <div class="row gx-lg-5">
+            <div class="col-md-6 mb-4 mb-md-0 wow animate__fadeInUp">
+              <div class="record-wrap h-100 d-flex align-items-center h-100">
+                <div class="record-text">
+                  <h2 class="fs-40 fw-500 mb-4">
+                    Do You Have a Vinyl Record Collection Just Sitting in
+                    Storage?
+                  </h2>
+                  <p class="fs-25 lh-1-7 text-light mb-4">
+                    If your records are gathering dust in the attic, basement,
+                    or tucked away in the back of a closet, we’d love to hear
+                    from you. Whether it’s a few classic albums or an entire
+                    lifetime’s collection, we’re interested.
+                  </p>
+                  <a href="#" class="btn btn-warning"> Get A Quote </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 wow animate__fadeInUp">
+              <div class="record-img h-100">
+                <img
+                  src="assets/images/record-img1.jpg"
+                  alt="Record Img"
+                  class="img-fluid w-100 h-100 object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="record-sec py-5">
+      <div class="before-2 position-relative">
+        <div class="container position-relative py-md-5">
+          <div class="row gx-lg-5 flex-row-reverse">
+            <div class="col-md-6 mt-4 mt-md-0 wow animate__fadeInUp">
+              <div class="record-wrap h-100 d-flex align-items-center h-100">
+                <div class="record-text">
+                  <h2 class="fs-40 fw-500 mb-4">
+                    Why Sell to Guernsey Records Exchange?
+                  </h2>
+                  <ul>
+                    <li class="fs-25 text-light lh-1-5">
+                      <strong class="text-black-50"> Fair Offers – </strong>
+                      We provide honest, competitive prices for your vinyl
+                      records.
+                    </li>
+                    <li class="fs-25 text-light lh-1-5">
+                      <strong class="text-black-50"> No Hassle – </strong>
+                      Quick friendly service. We come to you and arrange easy
+                      collection.
+                    </li>
+                    <li class="fs-25 text-light lh-1-5">
+                      <strong class="text-black-50"> Trusted Experts – </strong>
+                      With years of experience in the vinyl market, we know the
+                      true value of your collection.
+                    </li>
+                    <li class="fs-25 text-light lh-1-5">
+                      <strong class="text-black-50">
+                        Passion for Preservation –
+                      </strong>
+                      We give your records a second life, placing them in the
+                      hands of collectors who truly appreciate them.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 wow animate__fadeInUp">
+              <div class="record-img h-100">
+                <img
+                  src="assets/images/record-img1.jpg"
+                  alt="Record Img"
+                  class="img-fluid w-100 h-100 object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-sec py-5 border-bottom border-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 wow animate__fadeInUp">
+            <div class="contact-form py-md-5 d-flex h-100 align-items-center">
+              <div
+                class="contact-wrap p-md-5 p-4 rounded-1 bg-white border w-100"
+              >
+                <div class="contact-heading text-center">
+                  <h3 class="fs-40 fw-600 text-primary mb-4">
+                    Get a Free Quote
+                  </h3>
+                </div>
+                <form>
+                  <div class="form-group mb-3">
+                    <label class="fs-20 text-light fw-500 mb-1"> Name </label>
+                    <input type="text" class="form-control p-3 fs-16" />
+                  </div>
+                  <div class="form-group mb-3">
+                    <label class="fs-20 text-light fw-500 mb-1"> Email </label>
+                    <input type="email" class="form-control p-3 fs-16" />
+                  </div>
+                  <div class="form-group mb-3">
+                    <label class="fs-20 text-light fw-500 mb-1">
+                      Phone No.
+                    </label>
+                    <input type="tel" class="form-control p-3 fs-16" />
+                  </div>
+                  <div class="form-group mb-3">
+                    <label class="fs-20 text-light fw-500 mb-1">
+                      Tell Us What You Have
+                    </label>
+                    <textarea
+                      placeholder="How many records do you have, what type of music is it, LPs or singles and what is their general condition"
+                      class="form-control p-3 fs-16"
+                    ></textarea>
+                  </div>
+                  <div class="form-group text-end pt-4">
+                    <button class="submit-btn btn btn-warning">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 mt-4 mt-md-0">
+            <div class="contact-img h-100">
+              <img
+                src="assets/images/contact-img.jpg"
+                alt="Contact img"
+                class="img-fluid w-100 h-100 object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="pt-5">
+      <div class="container pt-md-3 wow animate__fadeInUp">
+        <div class="row mb-lg-5 pb-lg-5 wow animate__fadeInUp">
+          <div class="col-lg-3 col-md-6 my-4 my-lg-0">
+            <div class="footer-wrap text-center text-md-start">
+              <div class="footer-logo mb-3">
+                <a href="index.html">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Site Logo"
+                    class="img-fluid w-100"
+                  />
+                </a>
+              </div>
+              <p class="fs-20 text-primary">
+                If your records are gathering dust in the attic, basement, or
+                tucked away in the back of a closet, we’d love to hear from you.
+                Whether it’s a few classic albums or an entire lifetime’s
+                collection, we’re interested.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 my-4 my-lg-0">
+            <div
+              class="footer-wrap d-flex justify-content-center align-items-center h-100"
+            >
+              <div class="footer-sec-logo">
+                <img
+                  src="assets/images/footer-sec-logo.png"
+                  alt="Footer logo"
+                  class="img-fluid w-100 h-100"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 my-4 my-lg-0">
+            <div class="footer-wrap text-center text-md-start">
+              <h4 class="fs-35 fw-600 mb-3 text-secondary">Useful Links</h4>
+              <ul>
+                <li>
+                  <a href="index.html"> Home </a>
+                </li>
+                <li>
+                  <a href="#"> How It Works </a>
+                </li>
+                <li>
+                  <a href="#"> Stuff We Really Want </a>
+                </li>
+                <li>
+                  <a href="#"> Stuff We’ve Bought </a>
+                </li>
+                <li>
+                  <a href="#"> Get A Quote </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 my-4 my-lg-0">
+            <div class="footer-wrap text-center text-md-start">
+              <h4 class="fs-35 fw-600 mb-3 text-secondary">Contact Us</h4>
+              <div class="footer-social">
+                <ul>
+                  <li>
+                    <a href="mailto:info@gsyrecordexchange.co.uk"
+                      >info@gsyrecordexchange.co.uk</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.discogs.com/user/gsyrecordexhange"
+                      >https://www.discogs.com/user/gsyrecordexhange</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right py-4 mt-md-5 mt-4 border-top border-1">
+        <div class="container">
+          <p
+            class="mb-0 fs-14 text-secondary fw-500 text-uppercase text-center text-md-end fw-500"
+          >
+            Copyright 2025 All rights reserved. &nbsp; | &nbsp; Guernsey Record
+            Exchange &nbsp; | &nbsp; Website Design by ElevateOM
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      new WOW({ animateClass: "animate__animated" }).init();
+    </script>
+  </body>
+</html>
